@@ -1,0 +1,20 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+venv_phase2/
+.env
+
+# Ignore Nuscenes dataset (for it is huge)
+data/nuscenes/
+
+# Ignore downloaded weights (Download by yourself using mim download)
+models/weights/*.pth
+
+# Ignore temporary video output
+output/
+
+# Ignore Mac .DS
+.DS_Store
